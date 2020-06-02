@@ -2,7 +2,7 @@ module.exports = {
     env: 'development',
     nomeApi: 'helloworld',
     urlApi: 'https://engenhariasoftware2.herokuapp.com/',
-    portApi: 3303,
+    portApi: process.env.PORT || 3000,
     dataConfig: {
       MYSQL: {
         database: 'kudgv9t2q6almxt8',
